@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights Bakery - Your Daily Slice of Happiness</title>
+    <!-- Load Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for better aesthetics */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom gradient for the hero section */
+        .hero-gradient {
+            background: linear-gradient(to right bottom, #fdba74, #f97316); /* Warm orange/peach gradient */
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Hero Section -->
+    <header class="hero-gradient min-h-[60vh] flex items-center justify-center p-4">
+        <div class="text-center text-white p-6 rounded-xl bg-black bg-opacity-30 shadow-lg max-w-3xl">
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-4 leading-tight">
+                Sweet Delights Bakery
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 font-light italic">
+                Crafting Moments, One Delicious Slice at a Time.
+            </p>
+            <a href="#products" class="inline-block bg-white text-orange-600 font-bold py-3 px-8 rounded-full text-lg shadow-xl hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                Explore Our Cakes
+            </a>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 bg-white px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8 text-gray-900">About Our Bakery</h2>
+            <p class="text-lg leading-relaxed text-gray-700 mb-6">
+                At Sweet Delights, we believe every occasion deserves a perfect cake. Handcrafted with the finest ingredients and a sprinkle of passion, our cakes are designed to bring joy to your celebrations. From classic flavors to custom creations, we bake happiness into every bite.
+            </p>
+            <p class="text-lg leading-relaxed text-gray-700">
+                Our commitment to quality and customer satisfaction is at the heart of everything we do. We source fresh, local ingredients whenever possible, ensuring each cake tastes as wonderful as it looks.
+            </p>
+        </div>
+    </section>
+
+    <!-- Our Specialties Section -->
+    <section id="products" class="py-16 bg-orange-50 px-4">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Our Specialties</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Cake Card 1: Chocolate Fudge -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="https://placehold.co/600x400/FFDAB9/000?text=Chocolate+Fudge" alt="Chocolate Fudge Cake" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Decadent Chocolate Fudge</h3>
+                        <p class="text-gray-700 mb-4">Rich, moist chocolate cake layered with silky smooth fudge frosting. A timeless classic for true chocolate lovers.</p>
+                        <button class="bg-orange-500 text-white py-2 px-4 rounded-lg hover:bg-orange-600 transition duration-300">Order Now</button>
+                    </div>
+                </div>
+
+                <!-- Cake Card 2: Red Velvet -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="https://placehold.co/600x400/FF6347/000?text=Red+Velvet" alt="Red Velvet Cake" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Velvety Red Velvet</h3>
+                        <p class="text-gray-700 mb-4">A vibrant, tender red velvet cake with a luscious cream cheese frosting. Perfect for any celebration.</p>
+                        <button class="bg-orange-500 text-white py-2 px-4 rounded-lg hover:bg-orange-600 transition duration-300">Order Now</button>
+                    </div>
+                </div>
+
+                <!-- Cake Card 3: Vanilla Bean -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="https://placehold.co/600x400/F0F8FF/000?text=Vanilla+Bean" alt="Vanilla Bean Cake" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Classic Vanilla Bean</h3>
+                        <p class="text-gray-700 mb-4">Our signature vanilla bean cake with fluffy vanilla buttercream. Simple elegance, delightful taste.</p>
+                        <button class="bg-orange-500 text-white py-2 px-4 rounded-lg hover:bg-orange-600 transition duration-300">Order Now</button>
+                    </div>
+                </div>
+
+                <!-- Cake Card 4: Custom Cakes -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="https://placehold.co/600x400/98FB98/000?text=Custom+Cakes" alt="Custom Cakes" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Your Dream Custom Cake</h3>
+                        <p class="text-gray-700 mb-4">Bring your vision to life! Perfect for birthdays, weddings, and special events. Contact us for a quote.</p>
+                        <button class="bg-orange-500 text-white py-2 px-4 rounded-lg hover:bg-orange-600 transition duration-300">Inquire Now</button>
+                    </div>
+                </div>
+
+                <!-- Cake Card 5: Fruit Cakes -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="https://placehold.co/600x400/ADD8E6/000?text=Fruit+Cakes" alt="Fruit Cake" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Fresh Fruit Delights</h3>
+                        <p class="text-gray-700 mb-4">Light and refreshing cakes adorned with seasonal fresh fruits. A perfect summer treat.</p>
+                        <button class="bg-orange-500 text-white py-2 px-4 rounded-lg hover:bg-orange-600 transition duration-300">Order Now</button>
+                    </div>
+                </div>
+
+                <!-- Cake Card 6: Vegan Options -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="https://placehold.co/600x400/DDA0DD/000?text=Vegan+Cakes" alt="Vegan Cake" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Delicious Vegan Choices</h3>
+                        <p class="text-gray-700 mb-4">Indulge guilt-free! Our vegan cakes are just as delightful and flavorful. Ask about today's options.</p>
+                        <button class="bg-orange-500 text-white py-2 px-4 rounded-lg hover:bg-orange-600 transition duration-300">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Contact Section -->
+    <section class="py-16 bg-orange-600 text-white px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Ready to Taste Perfection?</h2>
+            <p class="text-xl mb-8">
+                Order your favorite cake or inquire about a custom creation today! We deliver happiness right to your doorstep.
+            </p>
+            <!-- Link to the chatbot interface (assuming it's in a file named chatbot-ui.html) -->
+            <a href="index.html" class="inline-block bg-white text-orange-600 font-bold py-3 px-8 rounded-full text-lg shadow-xl hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                Contact Us
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 px-4">
+        <div class="max-w-6xl mx-auto text-center text-sm">
+            <p>&copy; 2025 Sweet Delights Bakery. All rights reserved.</p>
+            <p class="mt-2">789 Maple Street, Anytown, USA | Phone: (123) 456-7890 | Email: info@sweetdelights.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
